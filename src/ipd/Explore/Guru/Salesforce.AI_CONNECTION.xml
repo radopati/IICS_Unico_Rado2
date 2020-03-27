@@ -1,0 +1,68 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>Uvqv1MuzBq695kc-gt-132298-2018-05-09T01:33:52.757Z::conn.xml</types1:EntryId>
+      <types1:Name>Salesforce</types1:Name>
+      <types1:ParentFlowIds>5cnULqv1MuzBq69-gt-134020-2018-05-09T01:38:34.911Z::pd.xml,aabcoq3xgjATO9p-gt-282249-2019-12-10T13:29:52.012Z::pd.xml,lybduaa-gt-5113-2018-05-14T17:04:08.184Z::pd.xml,pGY2KsJlv58pIO3-gt-751049-2018-10-31T13:37:59.255Z::pd.xml,RwZYCSNMzeHbcjq-gt-207837-2018-05-09T03:48:54.695Z::pd.xml,vOdsreK8ZAZf5kc-gt-1843648-2018-10-29T08:34:30.341Z::gt.xml,ZRdtIS7T1cnFKi9-gt-266558-2019-08-12T19:09:18.828Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+connection</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>gbalasubramanian@unicosolution.com</types1:CreatedBy>
+      <types1:CreationDate>2018-05-09T01:33:53Z</types1:CreationDate>
+      <types1:ModifiedBy>rpati@unicosolution.com.IICS</types1:ModifiedBy>
+      <types1:ModificationDate>2019-08-21T13:56:11Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
+      <types1:PublishedBy>rpati@unicosolution.com</types1:PublishedBy>
+      <types1:PublicationDate>2018-10-31T13:27:38Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connection/Salesforce/Salesforce.conn.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <connection xmlns="http://schemas.informatica.com/socrates/data-services/2014/04/avosConnections.xsd"
+                     displayName="Salesforce"
+                     label="Salesforce"
+                     name="Salesforce">
+            <description/>
+            <tags/>
+            <agent/>
+            <attributes/>
+            <soaConnector xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"
+                          connectorPath="project:/com.activevos.cumulus.cloud.extend.playbook.configuration/config/sfConnector.xml"
+                          name="Salesforce"
+                          supportsConnectionTest="true"
+                          supportsOData="true"
+                          uuid="05fc48f1-e6e1-441b-b700-bac396ca2ed1">
+               <description>Salesforce.com SOA based data connector.</description>
+            </soaConnector>
+            <odata>
+               <enabled>true</enabled>
+               <allowedRoles>
+                  <role>gbalasubramanian@unicosolution.com</role>
+                  <role>Service Consumer</role>
+               </allowedRoles>
+            </odata>
+            <authentication type="$infa_oauth2-authorization_code">
+               <attributes>
+                  <attribute encrypted="false"
+                             name="authUrl"
+                             value="https://login.salesforce.com/services/oauth2/authorize"/>
+                  <attribute encrypted="false"
+                             name="tokenUrl"
+                             value="https://login.salesforce.com/services/oauth2/token"/>
+                  <attribute encrypted="false"
+                             name="clientId"
+                             value="3MVG9xOCXq4ID1uGLcy3DpgY477aDNaEoBicuOmIXFK5e3RLtboke4OmR0RanYBcnnFTUbV4iEJ7BW9PdXODd"/>
+                  <attribute encrypted="true" name="clientSecret" value=""/>
+                  <attribute encrypted="false" name="sessionDuration" value="60"/>
+               </attributes>
+            </authentication>
+         </connection>
+      </types1:Entry>
+      <types1:GUID>5OkO3H457efbsbXYIz2bYv</types1:GUID>
+      <types1:DisplayName>Salesforce</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2020-03-27T13:19:51.752Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
